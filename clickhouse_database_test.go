@@ -13,7 +13,7 @@ import (
 	dbaasbase "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3"
 	"github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/model"
 	. "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/testutils"
-	chmodel "github.com/netcracker/qubership-core-lib-go-dbaas-clickhouse-client/model"
+	chmodel "github.com/netcracker/qubership-core-lib-go-dbaas-clickhouse-client/v2/model"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )

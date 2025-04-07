@@ -7,7 +7,7 @@ import (
 
 	dbaasbase "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3"
 	"github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/model/rest"
-	"github.com/netcracker/qubership-core-lib-go-dbaas-clickhouse-client/model"
+	"github.com/netcracker/qubership-core-lib-go-dbaas-clickhouse-client/v2/model"
 	"github.com/netcracker/qubership-core-lib-go/v3/configloader"
 	"github.com/netcracker/qubership-core-lib-go/v3/context-propagation/baseproviders/tenant"
 	"github.com/netcracker/qubership-core-lib-go/v3/context-propagation/ctxmanager"
