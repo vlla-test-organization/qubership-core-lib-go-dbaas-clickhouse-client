@@ -252,7 +252,7 @@ import (
 	"github.com/netcracker/qubership-core-lib-go/v3/logging"
 	dbaasbase "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3"
 	"github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/model/rest"
-	clickhousedbaas "github.com/netcracker/qubership-core-lib-go-dbaas-clickhouse-client/v1"
+	clickhousedbaas "github.com/netcracker/qubership-core-lib-go-dbaas-clickhouse-client/v2"
 	"github.com/ClickHouse/clickhouse-go/v2"
 )
 

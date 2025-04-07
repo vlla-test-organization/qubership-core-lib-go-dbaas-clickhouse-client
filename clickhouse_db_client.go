@@ -6,7 +6,7 @@ import (
 	"github.com/netcracker/qubership-core-lib-go/v3/logging"
 	dbaasbase "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3"
 	"github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/cache"
-	"github.com/netcracker/qubership-core-lib-go-dbaas-clickhouse-client/v1/model"
+	"github.com/netcracker/qubership-core-lib-go-dbaas-clickhouse-client/v2/model"
 )
 
 var logger logging.Logger
