@@ -1,4 +1,4 @@
-module github.com/netcracker/qubership-core-lib-go-dbaas-clickhouse-client/v1
+module github.com/netcracker/qubership-core-lib-go-dbaas-clickhouse-client
 
 go 1.22.0
 

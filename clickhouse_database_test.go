@@ -13,19 +13,19 @@ import (
 	dbaasbase "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3"
 	"github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/model"
 	. "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/testutils"
-	chmodel "github.com/netcracker/qubership-core-lib-go-dbaas-clickhouse-client/v1/model"
+	chmodel "github.com/netcracker/qubership-core-lib-go-dbaas-clickhouse-client/model"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )
 
 const (
-	dbaasAgentUrlEnvName     = "dbaas.agent"
-	namespaceEnvName         = "microservice.namespace"
-	testServiceName          = "service_test"
-	createDatabaseV3         = "/api/v3/dbaas/test_namespace/databases"
-	getDatabaseV3            = "/api/v3/dbaas/test_namespace/databases/get-by-classifier/clickhouse"
-	username                 = "service_test"
-	password                 = "qwerty127"
+	dbaasAgentUrlEnvName = "dbaas.agent"
+	namespaceEnvName     = "microservice.namespace"
+	testServiceName      = "service_test"
+	createDatabaseV3     = "/api/v3/dbaas/test_namespace/databases"
+	getDatabaseV3        = "/api/v3/dbaas/test_namespace/databases/get-by-classifier/clickhouse"
+	username             = "service_test"
+	password             = "qwerty127"
 )
 
 type DatabaseTestSuite struct {

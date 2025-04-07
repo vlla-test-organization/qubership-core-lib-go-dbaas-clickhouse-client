@@ -17,7 +17,7 @@ import (
 	dbaasbasemodel "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/model"
 	"github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/model/rest"
 	. "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/testutils"
-	"github.com/netcracker/qubership-core-lib-go-dbaas-clickhouse-client/v1/model"
+	"github.com/netcracker/qubership-core-lib-go-dbaas-clickhouse-client/model"
 	"github.com/stretchr/testify/assert"
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
