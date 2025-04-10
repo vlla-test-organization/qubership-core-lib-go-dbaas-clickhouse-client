@@ -9,12 +9,16 @@ import (
 	"github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/model/rest"
 	"github.com/netcracker/qubership-core-lib-go-dbaas-clickhouse-client/v2/model"
 	"github.com/netcracker/qubership-core-lib-go/v3/configloader"
+	"github.com/netcracker/qubership-core-lib-go/v3/serviceloader"
+	"github.com/netcracker/qubership-core-lib-go/v3/security"
 	"github.com/netcracker/qubership-core-lib-go/v3/context-propagation/baseproviders/tenant"
 	"github.com/netcracker/qubership-core-lib-go/v3/context-propagation/ctxmanager"
 	"github.com/stretchr/testify/assert"
 )
 
 func init() {
+	serviceloader.Register(1, &security.TenantContextObject{})
+	serviceloader.Register(1, &security.DummyToken{})
 	ctxmanager.Register([]ctxmanager.ContextProvider{tenant.TenantProvider{}})
 }
 
