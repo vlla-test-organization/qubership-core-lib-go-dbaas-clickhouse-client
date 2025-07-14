@@ -43,7 +43,6 @@ import (
 
 func init() {
 	serviceloader.Register(1, &security.DummyToken{})
-	serviceloader.Register(1, &security.TenantContextObject{})
 }
 ```
 
@@ -263,6 +262,7 @@ import (
 	"context"
 	"github.com/netcracker/qubership-core-lib-go/v3/configloader"
 	"github.com/netcracker/qubership-core-lib-go/v3/context-propagation/ctxmanager"
+  "github.com/netcracker/qubership-core-lib-go/v3/context-propagation/baseproviders/tenant"
 	"github.com/netcracker/qubership-core-lib-go/v3/logging"
 	dbaasbase "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3"
 	"github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/model/rest"
@@ -275,7 +275,7 @@ var logger logging.Logger
 func init() {
 	configloader.Init(configloader.BasePropertySources())
 	logger = logging.GetLogger("main")
-	ctxmanager.Register([]ctxmanager.ContextProvider{tenantcontext.TenantProvider{}})
+	ctxmanager.Register([]ctxmanager.ContextProvider{tenant.TenantProvider{}})
 }
 
 type Book struct {
