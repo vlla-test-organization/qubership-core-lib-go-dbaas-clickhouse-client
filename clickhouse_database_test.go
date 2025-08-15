@@ -9,13 +9,13 @@ import (
 	"time"
 
 	"github.com/ClickHouse/clickhouse-go/v2"
-	dbaasbase "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3"
-	"github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/model"
-	. "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/testutils"
-	chmodel "github.com/netcracker/qubership-core-lib-go-dbaas-clickhouse-client/v2/model"
-	"github.com/netcracker/qubership-core-lib-go/v3/configloader"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
+	dbaasbase "github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3"
+	"github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3/model"
+	. "github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3/testutils"
+	chmodel "github.com/vlla-test-organization/qubership-core-lib-go-dbaas-clickhouse-client/v2/model"
+	"github.com/vlla-test-organization/qubership-core-lib-go/v3/configloader"
 )
 
 const (

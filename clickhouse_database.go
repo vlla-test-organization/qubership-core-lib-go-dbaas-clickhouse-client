@@ -3,9 +3,9 @@ package clickhousedbaas
 import (
 	"context"
 
-	dbaasbase "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3"
-	"github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/cache"
-	"github.com/netcracker/qubership-core-lib-go-dbaas-clickhouse-client/v2/model"
+	dbaasbase "github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3"
+	"github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3/cache"
+	"github.com/vlla-test-organization/qubership-core-lib-go-dbaas-clickhouse-client/v2/model"
 )
 
 const (

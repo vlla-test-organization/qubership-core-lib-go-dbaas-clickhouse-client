@@ -12,15 +12,15 @@ import (
 
 	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
 	"github.com/docker/go-connections/nat"
-	dbaasbase "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3"
-	"github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/cache"
-	dbaasbasemodel "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/model"
-	"github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/model/rest"
-	. "github.com/netcracker/qubership-core-lib-go-dbaas-base-client/v3/testutils"
-	"github.com/netcracker/qubership-core-lib-go-dbaas-clickhouse-client/v2/model"
 	"github.com/stretchr/testify/assert"
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
+	dbaasbase "github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3"
+	"github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3/cache"
+	dbaasbasemodel "github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3/model"
+	"github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3/model/rest"
+	. "github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3/testutils"
+	"github.com/vlla-test-organization/qubership-core-lib-go-dbaas-clickhouse-client/v2/model"
 )
 
 const (
