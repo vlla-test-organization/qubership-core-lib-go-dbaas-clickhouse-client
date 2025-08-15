@@ -7,8 +7,8 @@ toolchain go1.24.5
 require (
 	github.com/ClickHouse/clickhouse-go/v2 v2.33.1
 	github.com/docker/go-connections v0.5.0
-	github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3 v3.0.1
-	github.com/vlla-test-organization/qubership-core-lib-go/v3 v3.0.1
+	github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3 latest
+	github.com/vlla-test-organization/qubership-core-lib-go/v3 latest
 	github.com/stretchr/testify v1.10.0
 	github.com/testcontainers/testcontainers-go v0.35.0
 )
