@@ -4,17 +4,15 @@ go 1.23
 
 toolchain go1.24.5
 
-retract (
-    v2.0.1
-)
+retract v2.0.1
 
 require (
 	github.com/ClickHouse/clickhouse-go/v2 v2.33.1
 	github.com/docker/go-connections v0.5.0
-	github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3 v3.0.3
-	github.com/vlla-test-organization/qubership-core-lib-go/v3 v3.0.3
 	github.com/stretchr/testify v1.10.0
 	github.com/testcontainers/testcontainers-go v0.35.0
+	github.com/vlla-test-organization/qubership-core-lib-go-dbaas-base-client/v3 v3.0.4
+	github.com/vlla-test-organization/qubership-core-lib-go/v3 v3.0.4
 )
 
 require (
