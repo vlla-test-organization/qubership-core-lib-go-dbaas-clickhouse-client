@@ -4,7 +4,6 @@ go 1.23
 
 toolchain go1.24.5
 
-retract v2.0.1
 
 require (
 	github.com/ClickHouse/clickhouse-go/v2 v2.33.1
